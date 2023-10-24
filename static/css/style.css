@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    background-color: white;
+}
+
+
+header {
+    position: sticky;
+    display: flex;
+    height: 65px;
+    box-shadow: 0px 0px 2px grey;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+header .nav-item-list {
+    display: flex;
+    list-style: none;
+    height: 100%;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+header .nav-item-list .nav-item {
+    display: inline-block;
+    vertical-align: middle;
+    text-transform: uppercase;
+    margin-left: 35px;
+    height: 100%;
+    line-height: 20px;
+    letter-spacing: 3px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+
+}
+
+header .nav-item-list .nav-item a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.logo {
+    padding: 5px;
+}
+
+.nav-item-list,
+.nav-item-list li {
+    list-style: none;
+
+}
+
+.nav-submenu {
+    display: none;
+}
+
+li:hover>.submenu-block {
+    display: block;
+}
+
+.submenu-block::before {
+    content: "";
+    position: relative;
+    top: -34px;
+    left: 30%;
+    margin-left: 0px;
+    border-width: 15px;
+    border-style: solid;
+    border-color: transparent transparent #3498db transparent;
+}
+
+.submenu-block {
+    position: absolute;
+    top: 65px;
+    left: 55%;
+    width: 350px;
+    height: 200px;
+    transform: translate(-50%);
+    background-color: rgb(66, 152, 244);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    z-index: 3;
+}
+
+.none {
+    display: none;
+}
+
+.sub-nav-list {
+    position: relative;
+    padding: 5px;
+    font-size: 24px;
+    color: white;
+    width: 40px;
+}
+
+
+
+.slider-container {
+    height: 350px;
+    margin-top: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+    border-radius: 20px;
+    border: 2px solid red;
+    box-shadow: 0 0 6px grey;
+    z-index: -1;
+}
