@@ -1,0 +1,17 @@
+main {
+    margin-top: var(--main-margin-header);
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For small devices */
+@media screen and (max-width: 300px) {}
+
+/* For large devices */
+@media screen and (min-width: 768px) {
+
+
+
+    main {
+        margin-top: calc(var(--main-margin-header) + 26px);
+    }
+}

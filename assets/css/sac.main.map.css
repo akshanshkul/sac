@@ -1,0 +1,86 @@
+.team {
+    height: 100%;
+    width: 100%;
+
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: green;
+    padding: 20px;
+    align-items: flex-start;
+
+
+}
+
+#left {
+    flex: 0 0 24%;
+    background-color: white;
+    height: fit-content;
+    box-shadow: 1px 1px yellow;
+    border: 1px solid green;
+    border-radius: 10px;
+}
+
+.right {
+    flex: 0 0 74%;
+    background-color: white;
+    height: fit-content;
+    border-radius: 5px;
+    box-shadow: 1px 1px yellow;
+    border: 1px solid green;
+
+}
+
+.box-heading {
+    font-size: 24px;
+    text-align: center;
+    border-bottom: 1px dotted green;
+    height: 50px;
+}
+
+.sideMenu {
+    margin: 10px;
+    margin-left: 40px;
+}
+
+.sideMenu li {
+    margin-top: 6px;
+    font-size: 18px;
+    width: 100%;
+}
+
+.sideMenu  li a {
+    color: green;
+}
+
+.sideMenu .dot-border {
+    border-bottom: 1px dotted green;
+}
+
+.level_2 {
+    margin-left: 22px;
+}
+
+.card {
+    min-height: 200px;
+
+}
+
+.card .heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 46px;
+    border-bottom: 2px solid grey;
+}
+
+.card .card-contant {
+    color: #2d2a2acc;
+    padding: 30px;
+    line-height: 26px;
+    font-size: 14px;
+}
