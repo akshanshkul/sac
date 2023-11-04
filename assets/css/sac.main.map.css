@@ -52,7 +52,7 @@
     width: 100%;
 }
 
-.sideMenu  li a {
+.sideMenu li .menu_text {
     color: green;
 }
 
@@ -83,4 +83,148 @@
     padding: 30px;
     line-height: 26px;
     font-size: 14px;
+}
+
+.profile-card {
+    width: 400px;
+    height: 200px;
+    background-color: green;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 20px;
+
+}
+
+.profile-pic {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.profile-pic img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+
+}
+
+.information .name {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.information .position,
+.mobile,
+.email {
+    color: white;
+    font-size: 14px;
+}
+
+.information .email {
+    font-style: italic;
+}
+
+@media screen and (max-width: 320px) {
+    .box-heading {
+        font-size: 12px;
+        height: 26px;
+    }
+
+    .sideMenu {
+        margin: 5px;
+        margin-left: 20px;
+    }
+
+    .sideMenu li,
+    .menu_text {
+        margin-top: 4px;
+        font-size: 8px;
+        width: 100%;
+    }
+
+    .right {
+        flex: 0 0 64%;
+
+
+    }
+
+    .card {
+        min-height: 100px;
+        min-width: 100px;
+
+    }
+
+    .card .heading {
+        font-size: 12px;
+        font-weight: bold;
+        margin-left: 20px;
+        margin-right: 20px;
+        line-height: 46px;
+        border-bottom: 2px solid grey;
+    }
+
+    .card .card-contant {
+        padding: 10px;
+        line-height: 10px;
+        font-size: 12px;
+    }
+
+    .profile-card {
+        width: 140px;
+        height: 60px;
+        background-color: green;
+        border-radius: 5px;
+        padding: 10px;
+        display: flex;
+        justify-content: space-around;
+        align-self: center;
+        align-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        gap: 10px;
+    }
+
+    .profile-pic {
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        background-color: white;
+    }
+
+    .profile-pic img {
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+    }
+
+    .information .name {
+        color: white;
+        font-size: 10px;
+        font-weight: bold;
+        width: fit-content;
+
+    }
+
+    .information .position,
+    .mobile,
+    .email {
+        color: white;
+        font-size: 6px;
+        width: fit-content;
+    }
+
+    .information .email {
+        font-style: italic;
+    }
+
 }
