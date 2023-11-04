@@ -135,13 +135,14 @@
 
 @media screen and (max-width: 320px) {
     .box-heading {
-        font-size: 12px;
-        height: 26px;
+        font-size: 8px;
+        height: 24px;
     }
 
     .sideMenu {
         margin: 5px;
         margin-left: 20px;
+        width: 80px;
     }
 
     .sideMenu li,
@@ -152,9 +153,11 @@
     }
 
     .right {
-        flex: 0 0 64%;
+        flex: 0 0 60%;
+    }
 
-
+    .level_2 {
+        margin-left: 10px;
     }
 
     .card {
@@ -164,11 +167,11 @@
     }
 
     .card .heading {
-        font-size: 12px;
+        font-size: 7px;
         font-weight: bold;
         margin-left: 20px;
         margin-right: 20px;
-        line-height: 46px;
+        line-height: 24px;
         border-bottom: 2px solid grey;
     }
 
