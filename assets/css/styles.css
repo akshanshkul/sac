@@ -59,7 +59,10 @@ body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   background-color: var(--body-color);
-  background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url("../images/bg/bg.jpg");
+  background-image: url("../images/bg/bg1.png");
+  background-attachment: fixed;
+
+  /* background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url("../images/bg/bg.jpg"); */
   color: var(--text-color);
 }
 
