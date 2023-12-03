@@ -3,7 +3,7 @@ include 'header.php';
 ?>
 <main class="team">
     <div class="content">
-    <?php
+        <?php
         include 'left-block.php';
         ?>
         <div class="right">
@@ -11,35 +11,62 @@ include 'header.php';
                 <div class="heading">Student Welfare</div>
                 <div class="card-contant">
                     <p>
-                        The spirit of being in NITT is the freedom to pursue academics, other personality development
-                        extra
-                        curricular activities.The best part about NIT Trichy is that the intake of students is from all
-                        over
-                        India of different states/culture/language. As most of the students stay in hostel, it gives
-                        them a
-                        chance to really know about each other. Everyone learns to respect the different lifestyle of
-                        each
-                        individual. Participation in Extracurricular activities like NSO, NCC, NSS, literary clubs,
-                        trekking
-                        clubs, photographic clubs and students' chapters of professional societies give student ample
-                        oppurtunity for developing leadership qualities. Students of the campus are regulated by Student
-                        Conduct and Disciplinary Code and by Rules and Regulations for Hostel Residents.<br>
-                        Basic medical facilities for all the students of NITT is being provided at the Hospital within
-                        the
-                        NITT campus.
+                       <h3> Welcome to GLA University: Elevating Your Experience with Exceptional Facilities and Services</h3>
+
+                        At GLA University, we are committed to providing an enriching and supportive environment for
+                        your academic journey. Explore the array of facilities and services that enhance your experience
+                        and contribute to your overall well-being:<br>
+
+                      <h3>  1. State-of-the-Art Infrastructure:</h3>
+                        Our modern campus is equipped with cutting-edge facilities, including spacious classrooms,
+                        well-equipped laboratories, and advanced technology infrastructure. Experience learning in an
+                        environment designed to inspire and empower.<br>
+
+                       <h3> 2. Library of Knowledge:</h3>
+                        Immerse yourself in a world of literature and information at our extensive library. With a vast
+                        collection of books, journals, and digital resources, it's the perfect place for research,
+                        study, and expanding your intellectual horizons.<br>
+
+                       <h3> 3. Labs for Hands-On Learning:</h3>
+                        From science and engineering to computer labs, our hands-on learning spaces provide the tools
+                        and equipment necessary for practical application of theoretical knowledge. Gain real-world
+                        experience within a supportive academic setting.<br>
+
+                       <h3> 4. Hostel Facilities:</h3>
+                        Our comfortable and secure hostel accommodations ensure a home away from home. With a focus on
+                        safety and a conducive atmosphere for study, our hostels are designed to foster a sense of
+                        community and belonging.<br>
+
+                       <h3> 5. Cafeteria & Dining Facilities:</h3>
+                        Fuel your academic journey with nutritious and delicious meals at our campus cafeteria. Our
+                        dining facilities prioritize variety and quality, catering to diverse tastes and dietary
+                        preferences.<br>
+
+                       <h3> 6. Fitness and Recreation:</h3>
+                        Promoting a holistic approach to student life, we offer fitness centers and recreational spaces.
+                        Stay active, healthy, and unwind with sports facilities that cater to a range of interests.<br>
+
+                        <h3>7. Career Guidance and Placement Services:</h3>
+                        Prepare for a successful future with our dedicated career guidance and placement services. We
+                        connect you with opportunities, industry insights, and professional development resources to
+                        ensure a smooth transition from academia to the workforce.<br>
+
+                       <h3> 8. Health and Wellness Services:</h3>
+                        Your well-being is our priority. Access healthcare facilities and wellness services on campus,
+                        including medical clinics and counseling support. We're here to provide assistance and ensure
+                        your physical and mental health.<br>
+
+                       <h3> 9. Transportation Services:</h3>
+                        Facilitating convenient commuting, our transportation services ensure easy access to and from
+                        the campus. Focus on your studies while we take care of the logistics.<br>
+
+                        At GLA University, our commitment to excellence extends beyond the classrooms. We strive to
+                        create an environment where you can thrive academically, personally, and professionally. Welcome
+                        to a campus that prioritizes your success and well-being at every step of your educational
+                        journey.
+
                     </p>
-                    <p> For specilised medical treatment students are referred to BHEL Hospital. If found necessary,
-                        students can use the Ambulance of the Institute.
-                        Apart from the above, for all students of NITT, Office of the Dean Students Welfare is taking a
-                        Mediclaim Insurance Policy with United Indian Assurance Company Limited. Under this Policy,
-                        students
-                        can avail treatment at any of the empanelled/ enlisted hospitals. For this purpose a Cashless
-                        Treatment Card will also be issued to the students. With the help of this card students can
-                        avail
-                        treatment at any of the empanelled hospitals.
-                        However, for treatment at BHEL hospital, this card will not be useful.
-                        Students may also note under the card, treatment can be taken only for INPATIENT treatment.
-                    </p>
+
                     <p> <strong>Ragging is a Criminal and Non-Bailable offence, punished by dismissal from the
                             Institute, fine of Rs
                             10,000/- and imprisonment upto two years</strong>

@@ -11,35 +11,22 @@ include 'header.php';
                 <div class="heading">Student Welfare</div>
                 <div class="card-contant">
                     <p>
-                        The spirit of being in NITT is the freedom to pursue academics, other personality development
-                        extra
-                        curricular activities.The best part about NIT Trichy is that the intake of students is from all
-                        over
-                        India of different states/culture/language. As most of the students stay in hostel, it gives
-                        them a
-                        chance to really know about each other. Everyone learns to respect the different lifestyle of
-                        each
-                        individual. Participation in Extracurricular activities like NSO, NCC, NSS, literary clubs,
-                        trekking
-                        clubs, photographic clubs and students' chapters of professional societies give student ample
-                        oppurtunity for developing leadership qualities. Students of the campus are regulated by Student
-                        Conduct and Disciplinary Code and by Rules and Regulations for Hostel Residents.<br>
-                        Basic medical facilities for all the students of NITT is being provided at the Hospital within
-                        the
-                        NITT campus.
+                    Say No to Ragging: Creating a Safe Environment at GLA University
+
+At GLA University, we are committed to fostering a learning environment that prioritizes respect, kindness, and inclusivity. Ragging is strictly prohibited on our campus, as it undermines the values we hold dear and jeopardizes the well-being of our students.<br>
+
+Ragging, in any form, goes against the principles of a healthy academic community. It not only hampers the academic pursuits of individuals but also leaves lasting emotional scars. At GLA, we believe in nurturing a culture of camaraderie and support among our students.<br>
+
+We firmly stand against any form of harassment, bullying, or intimidation. Our commitment to creating a safe and welcoming space is reflected in our zero-tolerance policy towards ragging. We urge all students to embrace the spirit of friendship and cooperation rather than engaging in activities that harm the dignity of their peers.<br>
+
+It is the responsibility of each member of the GLA community to report any incidents of ragging promptly. We have established mechanisms to ensure the confidentiality and protection of those who come forward to report such behavior. By doing so, you contribute to the maintenance of a campus that upholds the highest standards of respect and empathy.<br>
+
+Remember, GLA University is a place where everyone has the right to learn, grow, and thrive without fear. Let us work together to create an environment where every student feels safe, valued, and free to pursue their academic journey without hindrance.<br>
+
+Together, we can ensure that GLA remains a haven of learning, devoid of the negative impact of ragging. Say no to ragging, and let us build a community that thrives on mutual respect and support.
                     </p>
-                    <p> For specilised medical treatment students are referred to BHEL Hospital. If found necessary,
-                        students can use the Ambulance of the Institute.
-                        Apart from the above, for all students of NITT, Office of the Dean Students Welfare is taking a
-                        Mediclaim Insurance Policy with United Indian Assurance Company Limited. Under this Policy,
-                        students
-                        can avail treatment at any of the empanelled/ enlisted hospitals. For this purpose a Cashless
-                        Treatment Card will also be issued to the students. With the help of this card students can
-                        avail
-                        treatment at any of the empanelled hospitals.
-                        However, for treatment at BHEL hospital, this card will not be useful.
-                        Students may also note under the card, treatment can be taken only for INPATIENT treatment.
-                    </p>
+                    <br><br
+                    
                     <p> <strong>Ragging is a Criminal and Non-Bailable offence, punished by dismissal from the
                             Institute, fine of Rs
                             10,000/- and imprisonment upto two years</strong>
