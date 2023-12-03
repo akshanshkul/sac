@@ -43,6 +43,8 @@ $(document).ready(function () {
     $('.dropdown__item').click(function () {
         // Toggle the class to change the height
         $(this).find('.dropdown__container').css('height', 'fit-content');
+        alert("askoas");
+
     });
 });
 
