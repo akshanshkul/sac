@@ -1,0 +1,501 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+
+.team {
+    height: 100%;
+    width: 100%;
+
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: green;
+    padding: 20px;
+    align-items: flex-start;
+
+
+}
+
+#left {
+    flex: 0 0 24%;
+    background-color: white;
+    height: fit-content;
+    box-shadow: 1px 1px yellow;
+    border: 1px solid green;
+    border-radius: 10px;
+}
+
+.right {
+
+    flex: 0 0 74%;
+    background-color: white;
+    height: fit-content;
+    border-radius: 5px;
+    box-shadow: 1px 1px yellow;
+    border: 1px solid green;
+
+}
+
+.box-heading {
+    font-size: 24px;
+    text-align: center;
+    border-bottom: 1px dotted green;
+    height: 50px;
+}
+
+.sideMenu {
+    margin: 10px;
+    margin-left: 40px;
+}
+
+.sideMenu li {
+    margin-top: 6px;
+    font-size: 18px;
+    width: 100%;
+}
+
+.sideMenu li .menu_text {
+    color: green;
+}
+
+.sideMenu .dot-border {
+    border-bottom: 1px dotted green;
+}
+
+.level_2 {
+    margin-left: 22px;
+}
+
+.card {
+    min-height: 200px;
+
+}
+
+
+
+.card .heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 46px;
+    border-bottom: 2px solid grey;
+}
+
+.card .card-contant {
+    color: black;
+    padding: 30px;
+    line-height: 26px;
+    font-size: 14px;
+}
+
+.profile-card {
+    width: 400px;
+    height: 200px;
+    background-color: green;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 20px;
+
+}
+
+.profile-pic {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.profile-pic img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+
+}
+
+.information .name {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.information .position,
+.mobile,
+.email {
+    color: white;
+    font-size: 14px;
+}
+
+.information .email {
+    font-style: italic;
+}
+
+@media screen and (max-width: 768px) {
+
+    #left {
+        flex: 0 0 28%;
+    }
+
+    .right {
+        flex: 0 0 70%;
+    }
+
+    .box-heading {
+        font-size: 18px;
+        padding: 10px;
+    }
+    .sideMenu {
+        margin: 10px;
+        margin-left: 20px;
+    }
+    .sideMenu li {
+        margin-top: 4px;
+        font-size: 12px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .content {
+        padding: 4px;
+    }
+
+    .box-heading {
+        font-size: 12px;
+        padding: 6px;
+        height: 24px;
+    }
+
+    .sideMenu {
+        margin: 5px;
+        margin-left: 8px;
+    }
+
+    .sideMenu li,
+    .menu_text {
+        margin-top: 4px;
+        font-size: 8px;
+        width: 100%;
+    }
+
+    #left {
+        flex: 0 0 38%;
+    }
+
+    .right {
+        flex: 0 0 60%;
+    }
+
+    .level_2 {
+        margin-left: 10px;
+    }
+
+    .card {
+        min-height: 100px;
+        min-width: 100px;
+
+    }
+
+    .card .heading {
+        font-size: 7px;
+        font-weight: bold;
+        margin-left: 20px;
+        margin-right: 20px;
+        line-height: 24px;
+        border-bottom: 2px solid grey;
+    }
+
+    .card .card-contant {
+        font-family: 'Arial', sans-serif;
+        padding: 5px;
+        line-height: 10px;
+        font-size: 10px;
+        text-align: justify;
+        max-width: 100%-20px;
+        max-width: calc(100%-40px);
+        width: calc(100% - 2px);
+    }
+
+    .profile-card {
+        width: 140px;
+        height: 60px;
+        background-color: green;
+        border-radius: 5px;
+        padding: 10px;
+        display: flex;
+        justify-content: space-around;
+        align-self: center;
+        align-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        gap: 10px;
+    }
+
+    .profile-pic {
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        background-color: white;
+    }
+
+    .profile-pic img {
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+    }
+
+    .information .name {
+        color: white;
+        font-size: 10px;
+        font-weight: bold;
+        width: fit-content;
+
+    }
+
+    .information .position,
+    .mobile,
+    .email {
+        color: white;
+        font-size: 6px;
+        width: fit-content;
+    }
+
+    .information .email {
+        font-style: italic;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+    .content {
+        padding: 4px;
+    }
+
+    .box-heading {
+        padding: 6px;
+        font-size: 10px;
+        height: 24px;
+    }
+
+    .sideMenu {
+        margin: 5px;
+        margin-left: 8px;
+    }
+
+    .sideMenu li,
+    .menu_text {
+        margin-top: 4px;
+        font-size: 8px;
+        width: 100%;
+    }
+
+    #left {
+        flex: 0 0 38%;
+    }
+
+    .right {
+        flex: 0 0 60%;
+    }
+
+    .level_2 {
+        margin-left: 10px;
+    }
+
+    .card {
+        min-height: 100px;
+        min-width: 100px;
+
+    }
+
+    .card .heading {
+        font-size: 10px;
+        font-weight: bold;
+        margin-left: 5px;
+        margin-right: 20px;
+        line-height: 24px;
+        border-bottom: 2px solid grey;
+    }
+
+    .card .card-contant {
+        font-family: 'Arial', sans-serif;
+        padding: 5px;
+        line-height: 10px;
+        font-size: 10px;
+        text-align: justify;
+        max-width: 100%-20px;
+        max-width: calc(100%-40px);
+        width: calc(100% - 2px);
+    }
+
+    .profile-card {
+        width: 140px;
+        height: 60px;
+        background-color: green;
+        border-radius: 5px;
+        padding: 10px;
+        display: flex;
+        justify-content: space-around;
+        align-self: center;
+        align-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        gap: 10px;
+    }
+
+    .profile-pic {
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        background-color: white;
+    }
+
+    .profile-pic img {
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+    }
+
+    .information .name {
+        color: white;
+        font-size: 10px;
+        font-weight: bold;
+        width: fit-content;
+
+    }
+
+    .information .position,
+    .mobile,
+    .email {
+        color: white;
+        font-size: 6px;
+        width: fit-content;
+    }
+
+    .information .email {
+        font-style: italic;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .content {
+
+        padding: 4px;
+    }
+
+    .box-heading {
+        padding: 6px;
+        font-size: 10px;
+        height: 24px;
+    }
+
+    .sideMenu {
+        margin: 5px;
+        margin-left: 8px;
+    }
+
+    .sideMenu li,
+    .menu_text {
+        margin-top: 4px;
+        font-size: 8px;
+        width: 100%;
+    }
+
+    #left {
+        flex: 0 0 38%;
+    }
+
+    .right {
+        flex: 0 0 60%;
+    }
+
+    .level_2 {
+        margin-left: 10px;
+    }
+
+    .card {
+        min-height: 100px;
+        min-width: 100px;
+
+    }
+
+    .card .heading {
+        font-size: 10px;
+        font-weight: bold;
+        margin-left: 4px;
+        margin-right: 20px;
+        line-height: 24px;
+        border-bottom: 2px solid grey;
+    }
+
+    .card .card-contant {
+        font-family: 'Arial', sans-serif;
+        padding: 5px;
+        line-height: 10px;
+        font-size: 10px;
+        text-align: justify;
+        max-width: 100%-20px;
+        max-width: calc(100%-40px);
+        width: calc(100% - 2px);
+    }
+
+    .profile-card {
+        width: 140px;
+        height: 60px;
+        background-color: green;
+        border-radius: 5px;
+        padding: 10px;
+        display: flex;
+        justify-content: space-around;
+        align-self: center;
+        align-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        gap: 10px;
+    }
+
+    .profile-pic {
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        background-color: white;
+    }
+
+    .profile-pic img {
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+    }
+
+    .information .name {
+        color: white;
+        font-size: 10px;
+        font-weight: bold;
+        width: fit-content;
+
+    }
+
+    .information .position,
+    .mobile,
+    .email {
+        color: white;
+        font-size: 6px;
+        width: fit-content;
+    }
+
+    .information .email {
+        font-style: italic;
+    }
+
+}
