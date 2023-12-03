@@ -15,26 +15,40 @@ const showMenu = (toggleId, navId) => {
 showMenu('nav-toggle', 'nav-menu')
 
 /*=============== SHOW DROPDOWN MENU ===============*/
-const dropdownItems = document.querySelectorAll('.dropdown__item')
+// const dropdownItems = document.querySelectorAll('.dropdown__item')
 
-// 1. Select each dropdown item
-dropdownItems.forEach((item) => {
-    const dropdownButton = item.querySelector('.dropdown__button')
+// // 1. Select each dropdown item
+// dropdownItems.forEach((item) => {
+//     const dropdownButton = item.querySelector('.dropdown__button')
 
-    // 2. Select each button click
-    dropdownButton.addEventListener('click', () => {
-        // 7. Select the current show-dropdown class
-        const showDropdown = document.querySelector('.show-dropdown')
+//     // 2. Select each button click
+//     dropdownButton.addEventListener('click', () => {
+//         // 7. Select the current show-dropdown class
+//         const showDropdown = document.querySelector('.show-dropdown')
 
-        // 5. Call the toggleItem function
-        toggleItem(item)
+//         // 5. Call the toggleItem function
+//         toggleItem(item)
 
-        // 8. Remove the show-dropdown class from other items
-        if (showDropdown && showDropdown != item) {
-            toggleItem(showDropdown)
-        }
-    })
-})
+//         // 8. Remove the show-dropdown class from other items
+//         if (showDropdown && showDropdown != item) {
+//             toggleItem(showDropdown)
+//         }
+//     })
+// })
+
+
+
+
+$(document).ready(function () {
+    $('.dropdown__item').click(function () {
+        // Toggle the class to change the height
+        $(this).find('.dropdown__container').css('height', 'fit-content');
+    });
+});
+
+
+
+
 
 // 3. Create a function to display the dropdown
 const toggleItem = (item) => {
