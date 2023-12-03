@@ -1,5 +1,6 @@
 /*=============== GOOGLE FONTS ===============*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
 /*=============== VARIABLES CSS ===============*/
 :root {
   --header-height: 60px;
@@ -12,7 +13,7 @@
   --title-color: #055805;
   --text-color: #ebe411;
   --body-color: hsl(220, 100%, 99%);
-  --green:var(--title-color);
+  --green: var(--title-color);
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
   --body-font: "Poppins", sans-serif;
@@ -58,6 +59,7 @@ body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   background-color: var(--body-color);
+  background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url("../images/bg/bg.jpg");
   color: var(--text-color);
 }
 
@@ -136,9 +138,11 @@ a {
 .nav__toggle-close {
   opacity: 0;
 }
+
 li {
   cursor: pointer;
 }
+
 .a_link {
   color: var(--title-color);
   cursor: pointer;
@@ -149,7 +153,8 @@ li {
 
   color: var(--text-color);
 }
-.title{
+
+.title {
   margin: 5px;
   text-align: center;
   color: green;
