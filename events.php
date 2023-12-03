@@ -3,7 +3,7 @@ include 'header.php';
 ?>
 <main class="team">
     <div class="content">
-    <?php
+        <?php
         include 'left-block.php';
         ?>
         <div class="right">
@@ -11,39 +11,44 @@ include 'header.php';
                 <div class="heading">Student Welfare</div>
                 <div class="card-contant">
                     <p>
-                        The spirit of being in NITT is the freedom to pursue academics, other personality development
-                        extra
-                        curricular activities.The best part about NIT Trichy is that the intake of students is from all
-                        over
-                        India of different states/culture/language. As most of the students stay in hostel, it gives
-                        them a
-                        chance to really know about each other. Everyone learns to respect the different lifestyle of
-                        each
-                        individual. Participation in Extracurricular activities like NSO, NCC, NSS, literary clubs,
-                        trekking
-                        clubs, photographic clubs and students' chapters of professional societies give student ample
-                        oppurtunity for developing leadership qualities. Students of the campus are regulated by Student
-                        Conduct and Disciplinary Code and by Rules and Regulations for Hostel Residents.<br>
-                        Basic medical facilities for all the students of NITT is being provided at the Hospital within
-                        the
-                        NITT campus.
+                      <b>Unleash the Excitement: GLA University's Upcoming Events</b><br>
+
+                        Get ready to dive into a world of excitement as GLA University gears up for a series of
+                        thrilling events that promise to leave you inspired, entertained, and enriched! Our diverse
+                        range of upcoming events caters to every interest, ensuring there's something for everyone.<br>
+
+                      <h3>  1. Cultural Extravaganza:</h3>
+                        Immerse yourself in a celebration of diversity as our cultural extravaganza unfolds. From
+                        vibrant performances to artistic showcases, this event is a melting pot of talents that reflect
+                        the rich tapestry of our student community.<br>
+
+                       <h3> 2. TechFest - Where Innovation Meets Insight:</h3>
+                        Tech enthusiasts, brace yourselves! TechFest is on the horizon, bringing you cutting-edge
+                        innovations, insightful discussions, and hands-on experiences. Explore the limitless
+                        possibilities at the intersection of technology and creativity.<br>
+
+                        <h3> 3. Sports Spectacle:</h3>
+                        Feel the adrenaline rush as our sports spectacle unfolds. Whether you're a participant or a
+                        cheering fan, our sporting events are bound to showcase teamwork, skill, and the thrill of
+                        competition. Get ready to witness the triumph of athleticism.<br>
+
+                       <h3> 4. Academic Symposiums:</h3>
+                        Elevate your knowledge and engage in intellectual discourse at our academic symposiums. Renowned
+                        speakers and thought leaders will share insights, spark discussions, and inspire a thirst for
+                        knowledge that extends beyond the classroom.<br>
+
+                       <h3> 5. Social Impact Initiatives:</h3>
+                        At GLA, we believe in making a positive impact. Join us in various social initiatives that aim
+                        to contribute to the community. Together, we can create meaningful change and leave a lasting
+                        legacy of compassion and responsibility.<br>
+
+                        Stay tuned for updates on dates, venues, and participation details. Let the countdown begin to
+                        these unforgettable events that will shape your GLA experience! Get ready to make memories,
+                        forge connections, and embrace the spirit of unity at GLA University's upcoming events.
+
+
                     </p>
-                    <p> For specilised medical treatment students are referred to BHEL Hospital. If found necessary,
-                        students can use the Ambulance of the Institute.
-                        Apart from the above, for all students of NITT, Office of the Dean Students Welfare is taking a
-                        Mediclaim Insurance Policy with United Indian Assurance Company Limited. Under this Policy,
-                        students
-                        can avail treatment at any of the empanelled/ enlisted hospitals. For this purpose a Cashless
-                        Treatment Card will also be issued to the students. With the help of this card students can
-                        avail
-                        treatment at any of the empanelled hospitals.
-                        However, for treatment at BHEL hospital, this card will not be useful.
-                        Students may also note under the card, treatment can be taken only for INPATIENT treatment.
-                    </p>
-                    <p> <strong>Ragging is a Criminal and Non-Bailable offence, punished by dismissal from the
-                            Institute, fine of Rs
-                            10,000/- and imprisonment upto two years</strong>
-                    </p>
+                   
                     <p> <strong>- Dean (Student Welfare)</strong></p>
                 </div>
             </div>
