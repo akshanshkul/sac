@@ -23,8 +23,8 @@
             <li class="dot-border"><a href="studentcouncil" class="menu_text"> Student Council </a></li>
         </ul>
         </li>
-        <li class="dot-border"><a href="pd" class="menu_text">Planning and Development</a></li>
-        <li class="dot-border"><a href="righttoinfoact" class="menu_text">Right to Information Act</a></li>
+        <li class="dot-border"><a href="Planning-and-Development" class="menu_text">Planning and Development</a></li>
+        <li class="dot-border"><a href="Right-to-Information-Act" class="menu_text">Right to Information Act</a></li>
         <li class="dot-border"><a href="other" class="menu_text">Other Links</a></li>
         <li class="dot-border"><a href="contact" class="menu_text">Contact</a></li>
         </ul>

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+
 .team {
     height: 100%;
     width: 100%;
@@ -25,6 +27,7 @@
 }
 
 .right {
+
     flex: 0 0 74%;
     background-color: white;
     height: fit-content;
@@ -69,6 +72,8 @@
 
 }
 
+
+
 .card .heading {
     font-size: 24px;
     font-weight: bold;
@@ -79,7 +84,7 @@
 }
 
 .card .card-contant {
-    color: #2d2a2acc;
+    color: black;
     padding: 30px;
     line-height: 26px;
     font-size: 14px;
@@ -134,6 +139,11 @@
 }
 
 @media screen and (max-width: 320px) {
+    .content {
+
+        padding: 4px;
+    }
+
     .box-heading {
         font-size: 8px;
         height: 24px;
@@ -141,8 +151,7 @@
 
     .sideMenu {
         margin: 5px;
-        margin-left: 20px;
-        width: 80px;
+        margin-left: 8px;
     }
 
     .sideMenu li,
@@ -151,7 +160,9 @@
         font-size: 8px;
         width: 100%;
     }
-
+    #left {
+        flex: 0 0 38%;
+    }
     .right {
         flex: 0 0 60%;
     }
@@ -176,9 +187,14 @@
     }
 
     .card .card-contant {
-        padding: 10px;
+        font-family: 'Arial', sans-serif;
+        padding: 5px;
         line-height: 10px;
-        font-size: 12px;
+        font-size: 10px;
+        text-align: justify;
+        max-width: 100%-20px;
+        max-width: calc(100%-40px);
+        width: calc(100% - 2px);
     }
 
     .profile-card {
